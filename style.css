@@ -19,6 +19,32 @@ body {
   color: var(--ink);
 }
 
+header {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  color: var(--ink);
+}
+
+.header__container {
+    background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header__section {
+  spacing: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero {
   position: relative;
   max-width: 480px;
