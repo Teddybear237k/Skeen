@@ -159,7 +159,7 @@ body {
   padding: 32px 28px;
   border: 1px solid var(--ink);
   border-radius: 4px;
-  transform: rotate(-4deg);
+  transform: rotate(8deg);
   background: var(--cream);
 }
 
@@ -202,9 +202,9 @@ body {
 }
 
 .hero__flower--1 {
-  width: 40px;
+  width: 180px;
   bottom: 40px;
-  left: 40px;
+  left: 180px;
 }
 
 .hero__flower--2 {
