@@ -1,0 +1,147 @@
+body {
+  background-color: rgba(220, 166, 51, 0.703);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+header {
+  padding: 2px;
+  text-align: center;
+  font-family: Valkyrie, sans-serif;
+  font-size: 24px;
+}
+
+.search-decoration {
+  text-decoration: underline;
+  color: black;
+  background-color: goldenrod;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: goldenrod;
+  border: 1px groove black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText {
+  font-family: monospace, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  gap: 50px;
+}
+
+.headerTitle {
+  font-family: Valkyrie, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.flexbar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flexSearchBar {
+  width: 50%;
+  max-width: 50%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardButton {
+  background-color: goldenrod;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subtitle {
+  font-size: 26px;
+  color: #fff;
+  margin: 0;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.subtitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font:valkyrie, sans-serif;
+}
+
+.headerText {
+  font-family: Valkyrie, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  -webkit-text-size-adjust: auto;
+  -webkit-appearance: textfield;
+}
+
+.slogantext {
+  font-family: Valkyrie, sans-serif;
+  font-size: 100px;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
