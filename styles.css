@@ -1,3 +1,9 @@
+background {
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 header {
   background-color: #000000;
   padding: 20px;
@@ -13,8 +19,11 @@ search-decoration {
   background: goldenrod;
 }
 
-background {
-  background-color: goldenrod;
-  padding: 10px;
-  border-radius: 5px;
+
+
+searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
